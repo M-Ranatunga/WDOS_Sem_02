@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
           );
 
           if (user) {
-            alert("Login successful! Welcome, " + user.username);
+            alert("Welcome to our wildlife sanctuary community! " + user.username);
             localStorage.setItem("currentUser", user.username);
             if (user.username == "user") {
               window.location.href = "index.html";

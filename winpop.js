@@ -43,8 +43,6 @@ if (editPageButton) {
         localStorage.setItem("wil", textareaValue);
       } else if (selectPage == "yala") {
         localStorage.setItem("yala", textareaValue);
-      } else {
-        console.log("hello world");
       }
     }
   });

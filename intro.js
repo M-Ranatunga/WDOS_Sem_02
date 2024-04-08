@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Clear input field
     document.getElementById("email").value = "";
 
-    alert("Thank you for subscribing to our newsletter!");
+    alert("Thank you for subscribing to our newsletter! Stay tuned for the latest updates, exclusive content, and exciting offers delivered straight to your inbox. We appreciate your support!");
   });
   function saveEmailToLocalStorage(email) {
     let subscriptions =
