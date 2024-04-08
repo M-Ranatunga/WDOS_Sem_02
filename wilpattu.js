@@ -2,14 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const newsletterForm = document.getElementById("newsletterForm");
 
   newsletterForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
 
     const email = document.getElementById("email").value;
 
-    // Save email to localStorage
+   
     saveEmailToLocalStorage(email);
 
-    // Clear input field
+    
     document.getElementById("email").value = "";
 
     alert("Thank you for subscribing to our newsletter!");
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch data from JSON file
+  
   fetch("wilpattu.json")
     .then((response) => {
       if (!response.ok) {
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "data.main.section4.clasmap-containers.ymapheader.h2"
       ).innerHTML = data.main.section4.clasmapcontainers.ymapheader.h2;
 
-      // Map Fetching
+      
       function renderIframeFromJSON(data) {
         const iframeURL = data.main.section4.clasmapcontainers.ymap.iframe.src;
         const iframeWidth =

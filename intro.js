@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const newsletterForm = document.getElementById("newsletterForm");
 
   newsletterForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
 
     const email = document.getElementById("email").value;
 
-    // Save email to localStorage
+    
     saveEmailToLocalStorage(email);
 
     // Clear input field
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch data from JSON file
+  
   fetch("intro.json")
     .then((response) => {
       if (!response.ok) {
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
       //sec3
       document.getElementById("sinmtitle").innerHTML =
         data.section3.mcardcontainer.cards[0].title;
-      // Map Fetching
+      
       function renderIframeFromJSON(data) {
         const iframeURL = data.section3.mcardcontainer.cards[0].map_url;
 
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       document.getElementById("bundalamtitle").innerHTML =
         data.section3.mcardcontainer.cards[1].title;
-      // Map Fetching
+      
       function renderIframeFromJSONone(data) {
         const iframeURL = data.section3.mcardcontainer.cards[1].map_url;
 
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       document.getElementById("hortonmtitle").innerHTML =
         data.section3.mcardcontainer.cards[2].title;
-      // Map Fetching
+      
       function renderIframeFromJSONtwo(data) {
         const iframeURL = data.section3.mcardcontainer.cards[2].map_url;
 

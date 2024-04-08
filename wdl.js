@@ -2,14 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const newsletterForm = document.getElementById("newsletterForm");
 
   newsletterForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
 
     const email = document.getElementById("email").value;
 
-    // Save email to localStorage
+   
     saveEmailToLocalStorage(email);
 
-    // Clear input field
+    
     document.getElementById("email").value = "";
 
     alert("Thank you for subscribing to our newsletter!");
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch data from JSON file
+  
   fetch("wdl.json")
     .then((response) => {
       if (!response.ok) {
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "data.main.section2.gallery_head.title"
       ).innerHTML = data.main.section2.gallery_head.title;
 
-      // Map Fetching
+      
       function renderIframeFromJSONtwo(data) {
         const iframeURL = data.main.section1.map.iframe.src;
         const iframeWidth = data.main.section1.map.iframe.width;

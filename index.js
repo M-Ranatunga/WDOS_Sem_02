@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const newsletterForm = document.getElementById("newsletterForm");
 
   newsletterForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
 
     const email = document.getElementById("email").value;
 
-    // Save email to localStorage
+   
     saveEmailToLocalStorage(email);
 
     // Clear input field
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch data from JSON file
+  
   fetch("index.json")
     .then((response) => {
       if (!response.ok) {

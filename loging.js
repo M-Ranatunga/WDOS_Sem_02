@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch data from JSON file
   fetch("loging.json")
     .then((response) => {
       if (!response.ok) {
@@ -16,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document
         .getElementById("loginForm")
         .addEventListener("submit", function (event) {
-          event.preventDefault(); // Prevent default form submission behavior
+          event.preventDefault();
 
           // Get input values
           const username = document.getElementById("username").value;
@@ -30,8 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
           if (user) {
             alert("Login successful! Welcome, " + user.username);
             localStorage.setItem("currentUser", user.username);
-            // Redirect to google.com
-            window.location.href = "dash.html";
+            if (user.username == "user") {
+              window.location.href = "index.html";
+            } else {
+              window.location.href = "dash.html";
+            }
           } else {
             alert("Invalid username or password. Please try again.");
           }
