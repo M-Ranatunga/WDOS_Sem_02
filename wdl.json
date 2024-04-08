@@ -1,0 +1,61 @@
+{
+  "main": {
+    "WDL_Container": {
+      "WDL_Container_Text": {
+        "content": "Welcome to the forefront of Wildlife Department In Sri Lanka, where the Wildlife Conservation (DWC) of stands as a beacon of commitment to preserving and managing the nation's extraordinary biodiversity. For those passionate about the intricacies of nature, the DWC is a dedicated governmental authority ensuring the protection of diverse flora and fauna across Sri Lanka's picturesque landscapes. At the helm of these efforts is a team fervently dedicated to the cause, overseeing key responsibilities that encompass biodiversity conservation, meticulous management of national parks and protected areas, comprehensive research, and vigilant law enforcement against illegal activities such as poaching and habitat destruction. For nature enthusiasts seeking meaningful engagement, the DWC actively involves local communities, fostering awareness, promoting sustainable practices, and encouraging participation in conservation initiatives. The department's commitment extends to education and awareness, striving to instill a sense of responsibility for the harmonious coexistence of humans and wildlife. Whether you are an eco-conscious traveler, a wildlife enthusiast, or simply someone intrigued by the wonders of the natural world, the DWC invites you to join in our collective efforts. Explore the richness of Sri Lanka's unique ecosystems, home to a myriad of species, including elephants, leopards, and an array of captivating bird species. Immerse yourself in the beauty of wildlife conservation and be a part of our shared commitment to preserving this invaluable heritage."
+      }
+    },
+    "section1": {
+      "map": {
+        "iframe": {
+          "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.854793757745!2d79.89712747584848!3d6.907960818574461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25923bb00db0b%3A0xbf679f858b0d23b1!2sMinistry%20of%20Wildlife%20and%20Forest%20Conservation!5e0!3m2!1sen!2slk!4v1705172489654!5m2!1sen!2slk",
+          "width": "1200",
+          "height": "400",
+          "style": "border:0;",
+          "allowfullscreen": "",
+          "loading": "lazy",
+          "referrerpolicy": "no-referrer-when-downgrade"
+        }
+      }
+    },
+    "section2": {
+      "gallery_head": {
+        "title": "Protected Areas",
+        "gallery_container": {
+          "Witem": [
+            {
+              "h4": "Bundala National Park",
+              "img": {
+                "src": "wbundala.jpg"
+              }
+            },
+            {
+              "h4": "Udawlawa Nationala Park",
+              "img": {
+                "src": "wudawalawa.jpg"
+              }
+            },
+            {
+              "h4": "Hortan plains",
+              "img": {
+                "src": "whortan.jpg"
+              }
+            },
+            {
+              "h4": "Minneriya National Park",
+              "img": {
+                "src": "wminneriya.jpeg"
+              }
+            },
+            {
+              "h4": "Yala National Park",
+              "img": {
+                "src": "wyala.jpeg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

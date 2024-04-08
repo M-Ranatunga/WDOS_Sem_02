@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wildlife Dashboard</title>
+    <link rel="stylesheet" href="dash.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><p>Wildlife Dashboard</p></div>
+    </header>
+
+    <main>
+      <div id="dash">
+        <div id="btnContainer">
+          <a href="index.html"><button class="btntop" id="logoutBtn" onclick="deleteUser()">Logout</button></a>
+        </div>
+        <div class="dashboard">
+          <div class="page-box">
+            <h2>Home Page</h2>
+            <div class="button-group">
+              <button class="view-btn" onclick="handleViewClick('index.html')">
+                View
+              </button>
+              <button class="openpop" id="openPopup" onclick="openPopup()">
+                Edit
+              </button>
+            </div>
+          </div>
+          <div class="page-box">
+            <h2>Introduction Page</h2>
+            <div class="button-group">
+              <button class="view-btn" onclick="handleViewClick('intro.html')">
+                View
+              </button>
+              <button class="openpop" id="openPopup" onclick="openPopup()">Edit</button>
+            </div>
+          </div>
+          <div class="page-box">
+            <h2>Department Page</h2>
+            <div class="button-group">
+              <button class="view-btn" onclick="handleViewClick('wdl.html')">
+                View
+              </button>
+              <button class="openpop" id="openPopup" onclick="openPopup()">Edit</button>
+            </div>
+          </div>
+          <div class="page-box">
+            <h2>Animal Page</h2>
+            <div class="button-group">
+              <button class="view-btn" onclick="handleViewClick('animal.html')">
+                View
+              </button>
+              <button class="openpop" id="openPopup" onclick="openPopup()">Edit</button>
+            </div>
+          </div>
+          <div class="page-box">
+            <h2>Leopards Page</h2>
+            <div class="button-group">
+              <button
+                class="view-btn"
+                onclick="handleViewClick('lepords.html')"
+              >
+                View
+              </button>
+              <button class="openpop" id="openPopup" onclick="openPopup()">Edit</button>
+            </div>
+          </div>
+          <div class="page-box">
+            <h2>Wilpattu Page</h2>
+            <div class="button-group">
+              <button
+                class="view-btn"
+                onclick="handleViewClick('wilpattu.html')"
+              >
+                View
+              </button>
+              <button class="openpop" id="openPopup" onclick="openPopup()">Edit</button>
+            </div>
+          </div>
+          <div class="page-box">
+            <h2>Yala Page</h2>
+            <div class="button-group">
+              <button class="view-btn" onclick="handleViewClick('yala.html')">
+                View
+              </button>
+              <button class="openpop" id="openPopup" onclick="openPopup()">Edit</button>
+            </div>
+          </div>
+        </div>
+        <section id="abc">
+          <div class="subscriptionsEmails">
+            <h1 class="emialTitle">Subscription Emails</h1>
+            <ol id="emialLists"></ol>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="dash.js"></script>
+  </body>
+</html>

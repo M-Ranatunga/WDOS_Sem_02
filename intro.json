@@ -1,0 +1,122 @@
+{
+  "section1": {
+    "intro_wrapper": {
+      "image_src": "isri map.png",
+      "intro_wrapper_text": {
+        "heading": "Pearl Of The Indian Ocean",
+        "content": "Sri Lanka, the Pearl of the Indian Ocean, isn't just a haven for pristine beaches and ancient ruins. Beneath its lush embrace lies a vibrant tapestry of life, a treasure trove of wild wonders waiting to be discovered. From majestic giants roaming verdant landscapes to shimmering jewels flitting through emerald canopies, Sri Lanka's wildlife is a symphony of beauty and intrigue.<br><br>Sri Lanka's wilderness hums with a vibrant soundtrack, from the gentle trumpeting of Asian elephants to the melodic warbling of over 450 bird species. Imagine witnessing these gentle giants grazing in national parks or playful dolphins leaping in azure waves experiences that etch themselves onto your soul.<br><br>Yet, Sri Lanka's charm extends beyond land. Beneath turquoise waters, majestic whales glide by, offering glimpses of the ocean's hidden giants. And in dappled forests, the elusive Sri Lankan leopard, a mesmerizing predator, adds a touch of thrilling mystery.<br><br>"
+      }
+    }
+  },
+  "section2": {
+    "cardcontainer": {
+      "cards": [
+        {
+          "image_src": "isinharaja.jpeg",
+          "title": "Sinharaja Forest Reserve",
+          "intro": "A UNESCO World Heritage Site, Sinharaja is a lush rainforest teeming with endemic species. Hike through the verdant jungle and encounter majestic giants like the Sri Lankan elephant, graceful toque macaques, and vibrant Sri Lankan bluebirds"
+        },
+        {
+          "image_src": "ibundala.webp",
+          "title": "Bundala National Park",
+          "intro": "This national park with lagoons and marshes is an important refuge for migratory water birds like flamingos, pelicans, and storks. It's also home to a variety of other wildlife, including elephants, leopards, crocodiles, and monkeys. The park is a great place to go on a safari or boat tour."
+        },
+        {
+          "image_src": "ihorton-plains-national.jpg",
+          "title": "Horton Plains National Park",
+          "intro": "This UNESCO World Heritage Site is a plateau preserve with cloud forests, grasslands, and diverse wildlife. Home to endemic species like the Sri Lankan leopard, tufted deer, and purple-faced langur, it's a paradise for birdwatchers, boasting over 100 bird species."
+        }
+      ]
+    }
+  },
+  "section3": {
+    "mcardcontainer": {
+      "cards": [
+        {
+          "title": "Sinharaja Forest Reserve",
+          "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8991152232547!2d80.45744631172059!3d6.40699612447714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1706179692364!5m2!1sen!2slk"
+        },
+        {
+          "title": "Bundala National Park",
+          "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4885603636853!2d81.20561722248964!3d6.199091610798149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae69842ecb214eb%3A0x145a2d402f36beb0!2sBundala%20National%20Park!5e0!3m2!1sen!2slk!4v1706179874029!5m2!1sen!2slk"
+        },
+        {
+          "title": "Horton Plains National Park",
+          "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6739945883683!2d80.7997530117215!3d6.809451319743532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1706179816891!5m2!1sen!2slk"
+        }
+      ]
+    }
+  },
+  "section4": {
+    "table": {
+      "head": {
+        "columns": ["Park", "Animals", "Interesting Facts"]
+      },
+      "body": [
+        {
+          "Park": "Horton Plains National Park",
+          "Animals": "Sri Lankan leopard",
+          "Interesting Facts": "Endemic subspecies found only in Sri Lanka. More elusive than in lowland parks."
+        },
+        {
+          "Park": "",
+          "Animals": "Tufted deer",
+          "Interesting Facts": "Small, graceful deer with distinctive antlers. Endemic to Sri Lanka."
+        },
+        {
+          "Park": "",
+          "Animals": "Purple-faced langur",
+          "Interesting Facts": "Endemic primate with a distinctive purple face and long tail."
+        },
+        {
+          "Park": "Bundala National Park",
+          "Animals": "Flamingos",
+          "Interesting Facts": "Pink wading birds known for their graceful movements. Large flocks gather here, especially during the dry season."
+        },
+        {
+          "Park": "",
+          "Animals": "Pelicans",
+          "Interesting Facts": "Large birds with long beaks and wingspans of up to 10 feet. The Great white pelican and Spot-billed pelican are found here."
+        },
+        {
+          "Park": "",
+          "Animals": "Storks",
+          "Interesting Facts": "Tall wading birds with long legs and necks. Painted storks and Asian openbill storks are common sights."
+        },
+        {
+          "Park": "",
+          "Animals": "Leopards",
+          "Interesting Facts": "More elusive than in other parks."
+        },
+        {
+          "Park": "Sinharaja Rain Forest",
+          "Animals": "Sri Lankan leopard",
+          "Interesting Facts": "Highest leopard density in Sri Lanka. However, sightings are still rare due to dense vegetation."
+        },
+        {
+          "Park": "",
+          "Animals": "Purple-faced langur",
+          "Interesting Facts": "Abundant primate species easily spotted swinging through the trees."
+        },
+        {
+          "Park": "",
+          "Animals": "Slender loris",
+          "Interesting Facts": "One of the world's most endangered primates, found only in Sri Lanka's wet zone forests. Nocturnal and rarely seen."
+        },
+        {
+          "Park": "",
+          "Animals": "Sri Lankan elephant",
+          "Interesting Facts": "Smaller subspecies found in Sinharaja."
+        },
+        {
+          "Park": "",
+          "Animals": "Endemic birds",
+          "Interesting Facts": "Over 50% of the bird species found in Sri Lanka are endemic, including Ceylon bluebird, Sri Lankan spiderhunter, and brown-capped babbler."
+        }
+      ],
+      "foot": {
+        "content": "Lets protect our Land"
+      }
+    }
+  }
+}

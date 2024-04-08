@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilpattu National Park</title>
+    <link rel="stylesheet" href="wilpattu.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+            <div class="logo">Wildlife</div>
+            <div class="ham">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar"> 
+                <ul>
+                   <li><a class="active" href="index.html">Home</a></li>
+                   <li><a href="Intro.html">Introduction</a></li>
+                   <li><a href="wdl.html">Wildlife Department</a></li>
+                   <li><a href="lepords.html">Leopards</a></li>
+                   <li><a href="animal.html">Animals</a></li>
+                   <li><a href="loging.html">Login</a></li>
+                   <li><div id="openPopup"></div></li>
+               </ul>
+            </nav>
+    </header>
+    <script> 
+        hamburger = document.querySelector(".ham");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+     </script>
+    <main>
+        <section>
+            <div class="main_pic"><img src=""></div>
+        </section>
+        <nav class="inside-nav-bar">
+            <ul>
+                <li><a href="#1">About</a></li>
+                <li><a href="#3">Tours</a></li>
+                <li><a href="#4">Map</a></li>
+            </ul>
+        </nav>
+        <section id="1">
+            <div class="para">
+                <h1 id="data.main.section1.para.h1"></h1>
+                <p id="data.main.section1.para.p"></p>
+            </div>
+        </section>
+        <section id="2">
+            <div class="gallery_head">
+                <div class="gallery_container">
+                    <div class="item" id="10"></div>
+                    <div class="item" id="20"></div>
+                    <div class="item" id="30"></div>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="safari">
+                <h2 id="data.main.section3.safari.h2"></h2>
+                <p id="data.main.section3.safari.p"></p>
+            </div>
+            <div class="yalasafariimg">
+                <div id="40"></div>
+                <div id="50"></div>
+            </div>
+        </section>
+        <section id="4">
+            <div class="map-container">
+                <div class="ymapheader">
+                    <h2 id="data.main.section4.clasmap-containers.ymapheader.h2"></h2>
+                </div>
+                <div class="ymap" id="wilMap"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Intro.html">Introduction</a></li>
+                        <li><a href="wdl.html">Wildlife Department</a></li>
+                        <li><a href="lepords.html">Lepords</a></li>
+                      <li><a href="animal.html">Animals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sub Pages</h4>
+                    <ul>
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>References</h4>
+                    <ul>
+                        <li><a href="https://www.pinterest.com/">Pintrest</a></li>
+                        <li><a href="https://www.wildagain.africa/">Wild Again Africa</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="newscontainer">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletterForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+   </footer>
+   <script src="wilpattu.js"></script>
+   <script src="news.js"></script>
+</body>
+</html>

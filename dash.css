@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center; 
+}
+
+.page-box {
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(192, 173, 2, 0.3);
+  box-shadow: 0 0 20px rgba(245, 241, 241, 0.1);
+}
+
+.page-box h2 {
+  font-weight: bold;
+  color: white;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.view-btn,
+.openpop {
+  padding: 8px 16px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.view-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.view-btn:hover {
+  background-color: #f44336;
+}
+
+.openpop,
+.view-btn-like-edit {
+  background-color: #f44336;
+  color: white;
+}
+
+.openpop:hover,
+.view-btn-like-edit:hover {
+  background-color: #45a049;
+}
+
+#btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btntop {
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+#heading {
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+/*nav bar*/
+header {
+  background: #228B22;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: 5s animate ease infinite;
+  align-items: center;
+}
+
+@keyframes animate {
+  0% {
+    background-color: #ff00ff;
+  }
+  25% {
+    background-color: #00ff00;
+  }
+  50% {
+    background-color: #ff9900;
+  }
+  75% {
+    background-color: #3399ff;
+  }
+  100% {
+    background-color: #ffcc00;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 80px;
+  font-weight: bolder;
+}
+
+/* Style for the section with id "abc" */
+#abc {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 41%;
+  margin-left: 28.5%;
+}
+
+/* Style for the subscription emails container */
+.subscriptionsEmails {
+  margin-top: 20px;
+}
+
+/* Style for the email title */
+.emialTitle {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for the email lists */
+#emialLists {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for individual email items */
+#emialLists li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Hover effect for email items */
+#emialLists li:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+/* Style for email item text */
+#emialLists li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style for email item text on hover */
+#emialLists li a:hover {
+  text-decoration: underline;
+}

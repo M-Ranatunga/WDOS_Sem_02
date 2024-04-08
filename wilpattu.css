@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#openPopup{
+    cursor: pointer;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+header {
+    background: #5f380b;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    animation: 5s animate ease infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-color: #00ffff;
+    }
+    25% {
+        background-color: #ffcc00;
+    }
+    50% {
+        background-color: #0066ff;
+    }
+    75% {
+        background-color: #ff6600;
+    }
+    100% {
+        background-color: #3300ff;
+    }
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bolder;
+}
+
+.ham {
+    display: none;
+    /*hide, when 750px it will appear*/
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #ffffff;
+    background-color: #5f380b;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+.nav-bar ul li a:hover {
+    color: #5f380b;
+    background: #ffffff;
+}
+
+.active,
+a:hover {
+    color: #5f380b;
+    background: #ffffff;
+}
+
+/*hald image*/
+.main_pic {
+    background-image: url(wilppattu.jpeg);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*inside nav bar*/
+.inside-nav-bar {
+    background-color: #eeb20e;
+    padding: 10px 0;
+    height: 50px;
+}
+
+.inside-nav-bar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.inside-nav-bar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.inside-nav-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.inside-nav-bar a:hover {
+    background-color: #555;
+}
+
+/*para*/
+.para {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.para p {
+    color: #333333;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.3rem;
+    padding: 28px;
+}
+
+.para h1 {
+    color: #5f380b;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+/*Flexbox Gallery*/
+.gallery_container {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+.item img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    transition: all 0, 3s;
+    filter: brightness(0.7);
+}
+
+.item img:hover {
+    box-shadow: 2px 2px 5px 0px #36454F;
+    transform: scale(1.05);
+    filter: brightness(1);
+}
+
+/*safari*/
+.safari {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.safari h2 {
+    color: #5f380b;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.safari p {
+    color: #333333;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+.yalasafariimg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.yalasafariimg img {
+    width: 700px;
+    height: 400px;
+    border-radius: 100%;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    transition: all 0, 3s;
+    filter: brightness(0.7);
+}
+
+.yalasafariimg img:hover {
+    box-shadow: 2px 2px 5px 0px #36454F;
+    transform: scale(1.05);
+    filter: brightness(1);
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.ymapheader h2 {
+    color: #5f380b;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.ymap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    width: 80%;
+    margin: 20px;
+}
+
+/*NewsForm*/
+.newscontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-right: 20%;
+    margin-left: 19%;
+    margin-top: 40px;
+    padding: 20px;
+
+}
+.newscontainer h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#newsletterForm input[type="email"] {
+    width: 280px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#newsletterForm button {
+    padding: 10px 20px;
+    background-color: #228B22;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#newsletterForm button:hover {
+    background-color: #228B22;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #228B22;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 1432px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1336px) {
+    header {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1171px) {
+    .ham {
+        display: block;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 30px;
+        height: 3px;
+        background: #ffffff;
+        margin: 6px 0;
+    }
+
+    .nav-bar {
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #228B22;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active {
+        height: 450px;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    nav ul li a {
+        margin-bottom: 12px;
+        color: darkred;
+    }
+}
+
+@media only screen and (max-width: 1171px) {
+    .item img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .yalasafariimg img {
+        width: 290px;
+        height: 290px;
+    }
+}

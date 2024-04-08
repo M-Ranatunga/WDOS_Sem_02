@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Wildlife</div>
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Intro.html">Introduction</a></li>
+                <li><a href="wdl.html">Wildlife Department</a></li>
+                <li><a href="lepords.html">Leopards</a></li>
+                <li><a href="animal.html">Animals</a></li>
+                <li><a href="loging.html">Login</a></li>
+                <li><div id="openPopup"></div></li>
+
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".ham");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <main>
+        
+        <div class="fullimage"><img src="" alt=""></div>
+        <!--To set up full image-->
+        <section1>
+            <div class="welcome">
+                <div class="lfet_text">
+                    <h1 id="data_main_welcome_left_text_heading"></h1>
+                </div>
+                <div class="right_text">
+                    <h2 id="data.main.welcome.right_text.heading"></h2>
+                    <p id="data.main.welcome.right_text.content"> </p>
+                </div>
+            </div>
+        </section1>
+        <section2 id="bg2">
+            <!--To add a text wrapper-->
+            <div class="home_wrapper">
+                <div id="homeimg1"></div>
+                <div class="home_wrapper_text">
+                    <h2 id="data.main.bg2.home_wrapper.text.heading"></h2>
+                    <ul>
+                        <li>
+                            <p id="data.main.bg2.home_wrapper.text.points.1"></p>
+                        </li>
+                        <li>
+                            <p id="data.main.bg2.home_wrapper.text.points.2"></p>
+                        </li>
+                        <li>
+                            <p id="data.main.bg2.home_wrapper.text.points.3"></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section2>
+        <section3>
+            <div class="home_gallery_head">
+                <!--To add a small gallery-->
+                <div class="home_gallery_container">
+                    <div class="item" id="homeimg2"></div>
+                    <div class="item" id="homeimg3"></div>
+                    <div class="item" id="homeimg4"></div>
+                </div>
+            </div>
+        </section3>
+        <section4>
+            <div class="explore">
+                <!--To add hyper linksr-->
+                <h1 id="data.main.explore.heading"></h1>
+                <p id="data.main.explore.content"></p>
+            </div>
+            <div class="image-container">
+                <a href="yala.html">
+                    <img src="hyala board.jpg" alt="First Image">
+                </a>
+                <a href="wilpattu.html">
+                    <img src="hwilpattu board.jpeg" alt="Second Image">
+                </a>
+            </div>
+        </section4>
+        <!--To add some otther infor-->
+        <section5 id="bg3">
+            <div class="what">
+                <h2 id="data.main.bg3.what.heading"></h2>
+                <ol>
+                    <li><span class="special">Detailed profiles of Sri Lanka's most iconic animals:</span><br> Learn about their behavior, habitat, and conservation status.</li>
+                    <li><span class="special">Engaging articles:</span><br> Discover the latest research, conservation efforts, and fascinating stories about Sri Lanka's wildlife.</li>
+                    <li><span class="special">Travel tips:</span><br> Plan your dream wildlife safari with our expert advice on the best national parks, wildlife hotspots, and responsible tourism practices.</li>
+                    <li><span class="special">Interactive maps:</span><br> Explore the diverse habitats of Sri Lanka and locate your favorite animals.</li>
+                    <li><span class="special">Stunning photo galleries:</span><br> Immerse yourself in the beauty of Sri Lanka's wildlife with breathtaking images captured by talented photographers.</li>
+                    <li><span class="special">Educational resources:</span><br> Learn about the importance of conservation and how you can make a difference for Sri Lanka's wildlife.</li>
+                </ol>
+            </div>
+        </section5>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Intro.html">Introduction</a></li>
+                        <li><a href="wdl.html">Wildlife Department</a></li>
+                        <li><a href="lepords.html">Leopords</a></li>
+                        <li><a href="animal.html">Animals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sub Pages</h4>
+                    <ul>
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>References</h4>
+                    <ul>
+                        <li><a href="https://www.pinterest.com/">Pintrest</a></li>
+                        <li><a href="https://www.wildagain.africa/">Wild Again Africa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="newscontainer">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletterForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

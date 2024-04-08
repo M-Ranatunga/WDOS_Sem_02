@@ -1,0 +1,40 @@
+{
+    "main": {
+      "r1sections": [
+        {
+          "r1text": {
+            "title": "Yala National Park",
+            "description": "Sri Lanka's crown jewel for leopard spotting, wows with diverse landscapes and the world's highest leopard density. Forty elusive cats roam its vast plains, rocky outcrops, and lush pockets, promising thrilling glimpses during early mornings and late afternoons. But Yala's magic extends beyond leopards, with Asian elephants, sloth bears, and exotic birds completing the symphony of Sri Lanka's untamed beauty."
+          },
+          "image": "ryala.jpg"
+        },
+        {
+          "r1text": {
+            "title": "Wilpattu National Park",
+            "description": "Untamed Wilpattu beckons! This Sri Lankan gem, reborn after the war, offers a wilder adventure than Yala. Though leopard sightings are less frequent, its vast abandoned tanks and open plains provide thrilling hunts for these elusive cats. But Wilpattu's magic goes beyond leopards. Imagine ancient Buddhist ruins whispering secrets amidst vibrant birdlife, all under the vast Sri Lankan sky. Jeep safaris here promise a glimpse into the raw, untamed soul of the island."
+          },
+          "image": "rwilpattu.jpg"
+        },
+        {
+          "r1text": {
+            "title": "Sinharaja Forest Reserve",
+            "description": "Sinharaja, a UNESCO gem, cradles Sri Lanka's biodiversity in a verdant embrace. Towering trees, emerald vines, and cascading waterfalls paint a breathtaking canvas, where over 50% of the island's endemic species find sanctuary. While leopards remain elusive shadows amidst the dense foliage, the thrill of a potential encounter adds an unforgettable note to the symphony of exotic calls and vibrant flora. Birdwatchers and nature lovers, prepare to be awed!"
+          },
+          "image": "rsinharaja new.jpg"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Habitat Loss",
+          "image": "rhabitatloss2.jpg",
+          "description": "Habitat loss in Sri Lanka is primarily attributed to deforestation, driven by activities such as logging, agriculture expansion, and infrastructure development. This leads to the fragmentation and degradation of leopard habitats. Consequences include a decline in prey availability, increased human-leopard conflicts as leopards encroach on human settlements in search of food, and a higher risk of inbreeding among isolated leopard populations.<br><br>Efforts to mitigate habitat loss involve establishing protected areas, reforestation initiatives, and sustainable land-use planning. Implementing and enforcing regulations against illegal logging and unauthorized land conversion play a crucial role in conservation."
+        },
+        {
+          "title": "Illegal Wild Trade",
+          "image": "rillegal.jpeg",
+          "description": "Leopards are targeted for their skins, bones, and other body parts in the illegal wildlife trade. This trade poses a serious threat to their population, disrupting the ecological balance and biodiversity. It also fuels organized crime networks involved in smuggling and poaching.<br><br>Combatting illegal wildlife trade involves strengthening law enforcement, enhancing border controls, and raising awareness about the consequences of wildlife trafficking. International cooperation and stricter penalties for offenders are crucial in curbing this illicit trade.<br><br>"
+        }
+      ]
+    }
+  }
+  

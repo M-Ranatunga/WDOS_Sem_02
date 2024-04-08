@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lepords</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Wildlife</div>
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Intro.html">Introduction</a></li>
+                <li><a href="wdl.html">Wildlife Department</a></li>
+                <li><a href="lepords.html">Leopards</a></li>
+                <li><a href="animal.html">Animals</a></li>
+                <li><a href="loging.html">Login</a></li>
+                <li><div id="openPopup"></div></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".ham");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <main>
+        <div class="lepordmainbg"></div>
+        <div class="r1section">
+            <div class="r1text">
+                <h1 id="data.main.r1sections[0].r1text.title"></h1>
+                <p id="data.main.r1sections[0].r1text.description"></p>
+            </div>
+            <img id="10">
+        </div>
+        <div class="r1section">
+            <div class="r1text">
+                <h1 id="data.main.r1sections[1].r1text.title"></h1>
+                <p id="data.main.r1sections[1].r1text.description"></p>
+            </div>
+            <img id="20">
+        </div>
+        <div class="r1section">
+            <div class="r1text">
+                <h1 id="data.main.r1sections[2].r1text.title"></h1>
+                <p id="data.main.r1sections[2].r1text.description"></p>
+            </div>
+            <img id="30">
+        </div>
+        <section>
+            <div class="lepordwrapper">
+                <img id="40">
+                <div class="lepordwrappertext">
+                    <h2 id="data.main.sections[0].title"></h2>
+                    <p id="data.main.sections[0].description"></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="lepordwrapper">
+                <img id="50">
+                <div class="lepordwrappertext">
+                    <h2 id="data.main.sections[1].title"></h2>
+                    <p id="data.main.sections[1].description"><br><br>For More Information About Leopards and Their Life Circle <a href="https://www.wnpssl.org/news/leopardDay22.html" class="rbutton">Read More</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Intro.html">Introduction</a></li>
+                        <li><a href="wdl.html">Wildlife Department</a></li>
+                        <li><a href="lepords.html">Leopords</a></li>
+                        <li><a href="animal.html">Animals</a></li>
+                        <li><a href="loging.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sub Pages</h4>
+                    <ul>
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>References</h4>
+                    <ul>
+                        <li><a href="https://www.pinterest.com/">Pintrest</a></li>
+                        <li><a href="https://www.wildagain.africa/">Wild Again Africa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="newscontainer">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletterForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+    <script src="leopards.js"></script>
+    <script src="news.js"></script>
+</body>
+
+</html>

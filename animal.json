@@ -1,0 +1,68 @@
+{
+    "main": {
+      "section1": {
+        "acardcontainer": {
+          "acard": [
+            {
+              "acardimg": {
+                "src": "asloth bear.jpeg"
+              },
+              "acardbody": {
+                "acardtitle": "Sloth Bear",
+                "acardintro": "The sloth bear (Melursus ursinus) is found in Sri Lanka, inhabiting various habitats. Known for shaggy fur and distinctive markings, they primarily feed on insects using powerful claws. Solitary, except for mothers with cubs, they give birth to one to three cubs, and conservation efforts are in place to protect their habitats and ensure survival in Sri Lanka."
+              }
+            },
+            {
+              "acardimg": {
+                "src": "apurple langur.jpg"
+              },
+              "acardbody": {
+                "acardtitle": "Purple Face Langur",
+                "acardintro": "The purple-faced langur, also known as the purple-faced leaf monkey, is a species of Old World monkey endemic to Sri Lanka. It is exclusively arboreal and has a particularly long tail, used for balance."
+              }
+            },
+            {
+              "acardimg": {
+                "src": "adadu lena.jpg"
+              },
+              "acardbody": {
+                "acardtitle": "Grizzled Giant Squirrel",
+                "acardintro": "The grizzled giant squirrel is a large species of tree squirrel native to Sri Lanka and southern India. It is one of the unofficial national animals of the country, but it is considered near threatened with extinction because of hunting and habitat loss."
+              }
+            }
+          ]
+        }
+      },
+      "section2": {
+        "agallery_head": {
+          "title": "Other Animals",
+          "agallery_container": {
+            "aitem": [
+              {"src": "a1.jpeg"},
+              {"src": "a2.jpeg"},
+              {"src": "a3.jpeg"},
+              {"src": "a4.jpeg"},
+              {"src": "a5.jpeg"},
+              {"src": "a6.jpeg"}
+            ]
+          }
+        }
+      },
+      "section3": {
+        "agrid-container": {
+          "aheading": "More Information",
+          "agrid-item": [
+            {
+              "img": {"src": "ayala.jpeg", "alt": "Yala National Park Image"},
+              "a": {"href": "yala.html", "text": "Visit Yala"}
+            },
+            {
+              "img": {"src": "awilppattu.jpeg", "alt": "Wilpattu National Park Image"},
+              "a": {"href": "wilpattu.html", "text": "Visit Wilpattu"}
+            }
+          ]
+        }
+      }
+    }
+  }
+  

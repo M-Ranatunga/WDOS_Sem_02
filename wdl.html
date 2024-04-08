@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Department</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Wildlife</div>
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Intro.html">Introduction</a></li>
+                <li><a href="wdl.html">Wildlife Department</a></li>
+                <li><a href="lepords.html">Leopards</a></li>
+                <li><a href="animal.html">Animals</a></li>
+                <li><a href="loging.html">Login</a></li>
+                <li><div id="openPopup"></div></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".ham");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <main>
+        <div id="dwc_logo">
+            <img src="wdllogo.png" alt="DWC logo">
+        </div>
+        <div class="WDL_Container">
+            <div class="WDL_Container_Text">
+                <p id="data.main.WDL_Container.WDL_Container_Text.content"></p>
+            </div>
+        </div>
+        <section1>
+            <div class="map">
+                <p id="wdlMap"></p>
+            </div>
+        </section1>
+        <section2>
+            <div class="gallery_head">
+                <h1 id="data.main.section2.gallery_head.title"></h1>
+                <div class="gallery_container">
+                    <div class="Witem">
+                        <h4 id="data.main.section2.gallery_head.gallery_container.Witem[0].h4"></h4>
+                        <img src="" id="10">
+                    </div>
+                    <div class="Witem">
+                        <h4 id="data.main.section2.gallery_head.gallery_container.Witem[1].h4"></h4>
+                        <img src="" id="20">
+                    </div>
+                    <div class="Witem">
+                        <h4 id="data.main.section2.gallery_head.gallery_container.Witem[2].h4"></h4>
+                        <img src="" id="30">
+                    </div>
+                    <div class="Witem">
+                        <h4 id="data.main.section2.gallery_head.gallery_container.Witem[3].h4"></h4>
+                        <img src="" id="40">
+                    </div>
+                    <div class="Witem">
+                        <h4 id="data.main.section2.gallery_head.gallery_container.Witem[4].h4"></h4>
+                        <img src="" id="50">
+                    </div>
+                </div>
+            </div>
+        </section2>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Intro.html">Introduction</a></li>
+                        <li><a href="wdl.html">Wildlife Department</a></li>
+                        <li><a href="lepords.html">Lepords</a></li>
+                        <li><a href="animal.html">Animals</a></li>
+                        <li><a href="loging.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sub Pages</h4>
+                    <ul>
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>References</h4>
+                    <ul>
+                        <li><a href="https://www.pinterest.com/">Pintrest</a></li>
+                        <li><a href="https://www.wildagain.africa/">Wild Again Africa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="newscontainer">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletterForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+    <script src="wdl.js"></script>
+    <script src="news.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Wildlife</div>
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Intro.html">Introduction</a></li>
+                <li><a href="wdl.html">Wildlife Department</a></li>
+                <li><a href="lepords.html">Leopards</a></li>
+                <li><a href="animal.html">Animals</a></li>
+                <li><a href="loging.html">Login</a></li>
+                <li><div id="openPopup"></div></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".ham");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <main>
+        <section1>
+            <div class="intro_wrapper">
+                <div id="introimg1"></div>
+                <div class="intro_wrapper_text">
+                    <h2 id="data.section1.intro_wrapper.intro_wrapper_text.heading"></h2>
+                    <p id="data.section1.intro_wrapper.intro_wrapper_text.content"></p>
+                </div>
+            </div>
+        </section1>
+        <section2>
+            <div class="cardcontainer">
+                <div class="card">
+                    <div class="cardimg">
+                        <img id="introimg2">
+                    </div>
+                    <div class="cardbody">
+                        <h3 class="cardtitle" id="sintitle"></h3>
+                        <p class="cardintro" id="sinintro"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardimg">
+                        <img id="introimg3">
+                    </div>
+                    <div class="cardbody">
+                        <h3 class="cardtitle" id="bundalatitle"></h3>
+                        <p class="cardintro" id="bundalaintro"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardimg">
+                        <img id="introimg4">
+                    </div>
+                    <div class="cardbody">
+                        <h3 class="cardtitle" id="hortontitle"></h3>
+                        <p class="cardintro" id="hortonintro"></p>
+                    </div>
+                </div>
+            </div>
+        </section2>
+        <section3>
+            <div class="mcard-container">
+                <div class="mcard">
+                    <h2 id="sinmtitle"></h2>
+                    <div class="mmap" id="sinLoc"></div>
+                </div>
+                <div class="mcard">
+                    <h2 id="bundalamtitle"></h2>
+                    <div class="mmap" id="bundalaLoc"></div>
+                </div>
+                <div class="mcard">
+                    <h2 id="hortonmtitle"></h2>
+                    <div class="mmap" id="hortonLoc"></div>
+                </div>
+            </div>
+        </section3>
+        <section4>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="thcolumns1">Park</th>
+                        <th id="thcolumns2">Animals</th>
+                        <th id="thcolumns3">Interesting Facts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3" id="">Horton Plains National Park</td>
+                        <td id="">Sri Lankan leopard</td>
+                        <td id="">Endemic subspecies found only in Sri Lanka. More elusive than in lowland parks.</td>
+                    </tr>
+                    <tr>
+                        <td id="">Tufted deer</td>
+                        <td id="">Small, graceful deer with distinctive antlers. Endemic to Sri Lanka.</td>
+                    </tr>
+                    <tr>
+                        <td id="">Purple-faced langur</td>
+                        <td id="">Endemic primate with a distinctive purple face and long tail.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4" id="">Bundala National Park</td>
+                        <td id="">Flamingos</td>
+                        <td id="">Pink wading birds known for their graceful movements. Large flocks gather here, especially during the dry season.</td>
+                    </tr>
+                    <tr>
+                        <td id="">Pelicans</td>
+                        <td id="">Large birds with long beaks and wingspans of up to 10 feet. The Great white pelican and Spot-billed pelican are found here</td>
+                    </tr>
+                    <tr>
+                        <td id="">Storks</td>
+                        <td id="">Tall wading birds with long legs and necks. Painted storks and Asian openbill storks are common sights.</td>
+                    </tr>
+                    <tr>
+                        <td id="">Leopards</td>
+                        <td id="">More elusive than in other parks.</td>
+                    </tr>
+                    <td rowspan="5" id="">Sinharaja Rain Forest</td>
+                    <td id="">Sri Lankan leopard</td>
+                    <td id="">Highest leopard density in Sri Lanka. However, sightings are still rare due to dense vegetation.</td>
+                    </tr>
+                    <tr>
+                        <td id="">Purple-faced langur</td>
+                        <td id="">Abundant primate species easily spotted swinging through the trees.</td>
+                    </tr>
+                    <tr>
+                        <td id="">Slender loris</td>
+                        <td id="">One of the world's most endangered primates, found only in Sri Lanka's wet zone forests. Nocturnal and rarely seen.</td>
+                    </tr>
+                    <tr>
+                        <td id="">Sri Lankan elephant</td>
+                        <td id="">Smaller subspecies found in Sinharaja.</td>
+                    </tr>
+                    <tr>
+                        <td id="">Endemic birds</td>
+                        <td id="">Over 50% of the bird species found in Sri Lanka are endemic, including Ceylon bluebird, Sri Lankan spiderhunter, and brown-capped babbler.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            <center>Lets protect our Land</center>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section4>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Intro.html">Introduction</a></li>
+                        <li><a href="wdl.html">Wildlife Department</a></li>
+                        <li><a href="lepords.html">Leopards</a></li>
+                        <li><a href="animal.html">Animals</a></li>
+                        <li><a href="loging.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sub Pages</h4>
+                    <ul>
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>References</h4>
+                    <ul>
+                        <li><a href="https://www.pinterest.com/">Pintrest</a></li>
+                        <li><a href="https://www.wildagain.africa/">Wild Again Africa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="newscontainer">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletterForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+    <script src="intro.js"></script>
+    <script src="news.js"></script>
+</body>
+</html>

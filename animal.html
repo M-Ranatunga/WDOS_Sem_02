@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Wildlife</div>
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Intro.html">Introduction</a></li>
+                <li><a href="wdl.html">Wildlife Department</a></li>
+                <li><a href="lepords.html">Leopards</a></li>
+                <li><a href="animal.html">Animals</a></li>
+                <li><a href="loging.html">Login</a></li>
+                <li><div id="openPopup"></div></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".ham");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <main>
+        <div class="abg"></div>
+        <section1>
+            <div class="acardcontainer">
+                <div class="acard">
+                    <div class="acardimg">
+                        <div id="10"></div>
+                    </div>
+                    <div class="acardbody">
+                        <h3 class="acardtitle" id="data.main.section1.acardcontainer.acard[0].acardbody.acardtitle"></h3>
+                        <p class="acardintro" id="data.main.section1.acardcontainer.acard[0].acardbody.acardintro"></p>
+                    </div>
+                </div>
+                <div class="acard">
+                    <div class="acardimg">
+                        <div id="20"></div>
+                    </div>
+                    <div class="acardbody">
+                        <h3 class="acardtitle" id="data.main.section1.acardcontainer.acard[1].acardbody.acardtitle"></h3>
+                        <p class="acardintro" id="data.main.section1.acardcontainer.acard[1].acardbody.acardintro"></p>
+                    </div>
+                </div>
+                <div class="acard">
+                    <div class="acardimg">
+                        <div id="30"></div>
+                    </div>
+                    <div class="acardbody">
+                        <h3 class="acardtitle" id="data.main.section1.acardcontainer.acard[2].acardbody.acardtitle"></h3>
+                        <p class="acardintro" id="data.main.section1.acardcontainer.acard[2].acardbody.acardintro"></p>
+                    </div>
+                </div>
+            </div>
+        </section1>
+        <section2>
+            <div class="agallery_head">
+                <h1 id="data.main.section2.agallery_head.title"></h1>
+                <div class="agallery_container">
+                    <div class="aitem" id="50"></div>
+                    <div class="aitem" id="60"></div>
+                    <div class="aitem" id="70"></div>
+                    <div class="aitem" id="80"></div>
+                    <div class="aitem" id="90"></div>
+                    <div class="aitem" id="100"></div>
+                </div>
+            </div>
+        </section2>
+        <section3>
+            <div class="agrid-container">
+                <div class="aheading">
+                    <h2>More Information</h2>
+                </div>
+                <div class="agrid-item">
+                    <div>
+                        <img src="ayala.jpeg" alt="Yala National Park Image">
+                        <a href="yala.html" class="abutton" id="">Visit Yala</a>
+                    </div>
+                    <div>
+                        <img src="awilppattu.jpeg" alt="Wilpattu National Park Image">
+                        <a href="wilpattu.html" class="abutton" id="">Visit Wilpattu</a>
+                    </div>
+                </div>
+            </div>
+        </section3>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Intro.html">Introduction</a></li>
+                        <li><a href="wdl.html">Wildlife Department</a></li>
+                        <li><a href="lepords.html">Leopords</a></li>
+                        <li><a href="animal.html">Animals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sub Pages</h4>
+                    <ul>
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>References</h4>
+                    <ul>
+                        <li><a href="https://www.pinterest.com/">Pintrest</a></li>
+                        <li><a href="https://www.wildagain.africa/">Wild Again Africa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="newscontainer">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletterForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+    <script src="animal.js"></script>
+    <script src="news.js"></script>
+</body>
+
+</html>

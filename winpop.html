@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="winpop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup</title>        
+    <link rel="icon" type="image/jpg" sizes="32x32" href="ImageAssets/favicon.jpg">
+
+</head>
+<body>
+    <div class="editor">
+        <label for="page">Select Page: </label>
+        <select name="page" id="page" class="selectPage">
+            <option value="index">Home Page</option>
+            <option value="intro">Introduction Page</option>
+            <option value="wdl">Department Page</option>
+            <option value="animals">Animals Page</option>
+            <option value="leo">Leopard Page</option>
+            <option value="yala">Yala Page</option>
+            <option value="wil">Wilpattu Page</option>
+        </select>
+
+        <button id="selectPage" class="selectBTN">Select Page</button>
+        <button id="saveChanges" class="saveBTN">Save Changes</button><br><br>
+        <textarea name="" class="jsonTextarea" id="textarea" cols="100" rows="20"></textarea>
+    </div>
+    <script src="winpop.js"></script>
+</body>

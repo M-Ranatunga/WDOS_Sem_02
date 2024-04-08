@@ -1,0 +1,44 @@
+{
+  "main": {
+    "welcome": {
+      "left_text": {
+        "heading": "Welcome!"
+      },
+      "right_text": {
+        "heading": "Embark on a breathtaking safari adventure in paradise",
+        "content": "Embark on a breathtaking journey through the verdant jungles, misty mountains, and sun-kissed beaches of Sri Lanka, a land teeming with captivating wildlife. From the majestic tusks of the Asian elephant to the vibrant plumage of the blue magpie, our island nation is a kaleidoscope of creatures waiting to be discovered.<br><br> This website is your ultimate guide to Sri Lanka's diverse wildlife. Immerse yourself in the fascinating stories of our endemic species, like the elusive sloth bear and the graceful langur monkey. Learn about the delicate ecosystems they inhabit, from the lush rainforests of Sinharaja to the arid plains of Wilpattu National Park."
+      }
+    },
+    "bg2": {
+      "home_wrapper": {
+        "image_src": "hdouble expo.png",
+        "text": {
+          "heading": "Wonderland Awaits",
+          "points": [
+            "Sri Lanka, the resplendent island nation adorned with emerald jungles, misty mountains, and sun-kissed beaches, isn't just a feast for the eyes; it's a haven for wildlife enthusiasts. From the majestic Asian elephant, the world's tallest land animal, to the minuscule toque macaque, the smallest primate in Asia, Sri Lanka boasts a captivating tapestry of creatures, each playing a vital role in the island's vibrant ecosystem.",
+            "Whether you're drawn to the elusive grace of the leopard, the playful antics of the toque macaque, or the awe-inspiring presence of the blue whale, the largest animal on Earth, Sri Lanka has something to spark your wonder. Get ready to be mesmerized by the island's diverse inhabitants, from the soaring hornbills to the colorful butterflies, each adding a unique brushstroke to the canvas of Sri Lankan wildlife.",
+            "But Sri Lanka's wildlife isn't just about the big and the bold. The island is home to a remarkable diversity of smaller creatures, each with its own unique story to tell. Amphibians like the vibrant red-legged dancing frog and the elusive Sri Lankan burrowing frog thrive in the island's humid forests, while reptiles like the mugger crocodile and the endemic Sri Lankan agama lizard bask in the warm sunshine. And let's not forget the vibrant insect life, from the iridescent damselflies and dragonflies to the colorful butterflies that flit through the air, adding a touch of magic to every corner of the island."
+          ]
+        }
+      }
+    },
+    "home_gallery_head": {
+      "home_gallery_container": {
+        "items": [
+          {"src": "hsloth 2.jpg"},
+          {"src": "hleopard.jpg"},
+          {"src": "hlangur.jpg"}
+        ]
+      }
+    },
+    "explore": {
+      "heading": "Exploring Sri Lanka's Wildlife Wonders",
+      "content": "Sri Lanka boasts a rich and diverse wildlife that can be explored in various captivating destinations. One must-visit location is Yala National Park, renowned for its thriving population of leopards, making it a prime spot for wildlife enthusiasts. The park also encompasses a variety of ecosystems, from dense jungles to coastal areas, providing a habitat for elephants, sloth bears, and numerous bird species. Visitors can embark on safari adventures, immersing themselves in the beauty of Sri Lanka's natural wonders.<br><br>Wilpattu National Park, located on the island's northwest coast, is another captivating wildlife sanctuary. It stands out for its unique landscape, characterized by natural lakes or villus scattered throughout the park, creating a picturesque setting for animal sightings. Wilpattu is known for its diverse wildlife, including leopards, elephants, deer, and numerous bird species. Exploring its vast expanse on a safari allows visitors to witness the untamed beauty of Sri Lanka's wilderness while enjoying the tranquility of this stunning national park.<br><br>"
+    },
+    "bg3": {
+      "what": {
+        "heading": "what you can find on our website ?"
+      }
+    }
+  }
+}
